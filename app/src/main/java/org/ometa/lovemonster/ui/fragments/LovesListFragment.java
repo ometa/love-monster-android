@@ -90,7 +90,6 @@ public abstract class LovesListFragment extends Fragment {
             public void onRefresh() {
                 if (NetworkHelper.isUp(getActivity())) {
                     onSwipeDown();
-
                 } else {
                     viewHolder.swipeContainer.setRefreshing(false);
                     Toast.makeText(getActivity(), R.string.check_internet, Toast.LENGTH_SHORT).show();

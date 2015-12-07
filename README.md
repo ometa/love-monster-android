@@ -17,23 +17,23 @@ Time Spent: **1** cumulative developer hours.
 
 The following **required** functionality is completed:
 
-* [x] Display a page of the most recent loves, including To, From,
-  and Reason
+* [x] Display a page of the most recent loves, including To, From, and Reason
 * [x] "Send Love" button that renders an activity that allows the user to
-  select a receipient, specify the reason
-and optional longer message, then click Send to post the love to the API 
+  select a receipient, specify the reason and optional longer message, then
+  click Send to post the love to the API
 * [x] Click on a user to render a user detail page, showing recently sent
   and received loves.
 * [] Settings page to specify connection information that gets stored in
   User Preferences keystore
-* [] Authentication with Okta
-* [] The user can click an icon representing themselves to see a
+* [x] The user can click an icon representing themselves to see a
   rendering of their own activity.
+* [] Authentication with Okta
 
 The following **optional** features are implemented:
-* [] display time ago and the optional message for a love
+* [x] display time ago and the optional message for a love
 * [] Make the recipient form type-ahead based on the full userlist from LDAP
-* [] Infinite scrolling of loves, fetching more from the API
+* [x] Infinite scrolling of loves, fetching more from the API
+* [x] Swiping down refreshes the love list to include new loves
 * [] Allow input and rendering of github emoticons like the main web app does
 * [] Render users' profile pictures
 * [] Render the "likes" functionality, showing which users that like a particular love.
